@@ -1,0 +1,448 @@
+@font-face {
+    font-family: 'Bodoni';
+    src: url('./fonts/bodoni_xt/BodoniXT.ttf');
+}
+@font-face {
+  font-family:'Gobold-uplow-italic' ;
+  src: url('./fonts/gobold/Gobold Regular Italic.otf') ;
+}
+@font-face {
+  font-family: 'OldTypefaces';
+  src: url('./fonts/old_typefaces/OldTypefaces.ttf');
+}
+@font-face {
+    font-family: 'Monument-Extended';
+    src: url('/fonts/monumentExtended/MonumentExtended-Regular.otf');
+}
+@font-face {
+    font-family: 'Rimouski';
+    src: url('./fonts/rimouski-webfont/rimouski sb.woff');
+}
+@font-face {
+    font-family: 'Kinglard';
+    src: url('./fonts/Kinglard/kinglard.italic.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.bg{
+    position: relative;
+    width: 100vw;
+    z-index: -1;
+}
+.bg img {
+    width: 100%;
+    height: auto; 
+}
+.about{
+    position: absolute;
+    top: 400px;
+    right: 60px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.name{
+    width:contain;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Kinglard';
+    font-weight: 500;
+    color: #2C2C2C;
+    text-align: left;
+}
+.role{
+    position: relative;
+    text-align: left;
+    font-size: 1.4rem;
+    font-family: 'Gobold-uplow-italic';
+    color: #2C2C2C;
+}
+.aboutDes{
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'OldTypefaces';
+    color: #000000;
+    width: max-content;
+}
+.logoS{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.pr{
+    position:relative;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    margin-top:10px;
+    right:-100px;
+}
+.dv{
+    position:relative;
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+    margin:5px;
+    right:-100px;
+}
+.concept{
+    position: absolute;
+    transform: translate(0px, -400px);
+    left: 20px;
+    font-family: 'Monument-Extended', sans-serif;
+    width: fit-content;
+    height: fit-content;
+    font-size: 5rem;
+    color: #1E1E1E;
+    text-align: left;
+}
+.description{
+    position: absolute;
+    transform: translate(0px, -200px);
+    left: 20px;
+    font-family: 'Rimouski', sans-serif;
+    font-size: 1.5rem;
+    color: #1E1E1E;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media (min-width: 1080px) and (max-width: 1250px) {
+.about{
+    top: 340px;
+    right: 40px;
+}
+.name{
+    font-size: 2.4rem;
+}
+.role{
+    font-size: 1.2rem;
+}
+.aboutDes{
+    font-size: 16px;
+}
+}
+@media (max-width: 1080px) {
+.concept{
+    transform: translate(0px, -300px);
+    font-size: 4.2rem;
+}
+.description{
+    transform: translate(0px, -140px);
+    font-size: 1.3rem;
+}
+.about{
+    top: 330px;
+    right: 40px;
+}
+.name{
+    font-size: 2.2rem;
+}
+.role{
+    font-size: 1.1rem;
+}
+.aboutDes{
+    font-size: 15px;
+}
+.pr{
+    width: 45px;
+    height: 45px;
+    right:-75px;
+}
+.dv{
+    width: 55px;
+    height: 55px;
+    right:-75px;
+}
+}
+@media (max-width: 1000px) {
+.concept{
+    transform: translate(0px, -300px);
+    font-size: 4rem;
+}
+.description{
+    transform: translate(0px, -140px);
+    font-size: 1.1rem;
+}
+.about{
+    top: 280px;
+    right: 35px;
+}
+.name{
+    font-size: 2rem;
+}
+.role{
+    font-size: 1rem;
+}
+.aboutDes{
+    font-size: 14px;
+}
+}
+@media (min-width: 768px) and (max-width: 925px) {
+.about{
+    top: 220px;
+    right: 15px;
+}
+.name{
+    font-size: 2rem;
+}
+.role{
+    font-size: 1rem;
+}
+.aboutDes{
+    font-size: 12px;
+}
+.pr{
+    width: 30px;
+    height: 30px;
+    right:-75px;
+}
+.dv{
+    width: 40px;
+    height: 40px;
+    right:-75px;
+}
+}
+@media (max-width: 768px){
+.concept{
+    transform: translate(0px, -250px);
+    font-size: 3.5rem;
+}
+.description{
+    transform: translate(0px, -100px);
+    font-size: 1rem;
+}
+.about{
+    top: 200px;
+    right: 8px;
+}
+.name{
+    font-size: 2rem;
+}
+.role{
+    font-size: 1rem;
+}
+.aboutDes{
+    font-size: 12px;
+}
+.pr{
+    width: 30px;
+    height: 30px;
+    right:-60px;
+}
+.dv{
+    width: 40px;
+    height: 40px;
+    right:-60px;
+}
+}
+@media (max-width: 725px){
+.about{
+    top: 200px;
+    right: 0px;
+}
+.name{
+    font-size: 1.7rem;
+}
+.role{
+    font-size: 0.9rem;
+}
+.aboutDes{
+    font-size: 10px;
+}
+.pr{
+    width: 25px;
+    height: 25px;
+    right:-45px;
+}
+.dv{
+    width: 35px;
+    height: 35px;
+    right:-45px;
+}
+}
+@media (max-width: 670px){
+.concept{
+    transform: translate(0px, -200px);
+    font-size: 2.8rem;
+}
+.description{
+    transform: translate(0px, -90px);
+    font-size: 0.8rem;
+}
+.about{
+    top: 180px;
+}
+.name{
+    font-size: 1.7rem;
+}
+.role{
+    font-size: 0.9rem;
+}
+.aboutDes{
+    font-size: 10px;
+}
+}
+@media (max-width: 600px){
+.about{
+    top: 170px;
+}
+.aboutDes{
+    margin-top: 25px;
+    font-size: 9px;
+}
+}
+@media (max-width: 600px){
+.concept{
+    transform: translate(0px, -180px);
+    font-size: 2.6rem;
+}
+.description{
+    transform: translate(0px, -80px);
+    font-size: 0.7rem;
+}
+.about{
+    top: 140px;
+}
+.aboutDes{
+    font-size: 8px;
+}
+}
+@media (max-width: 500px){
+.concept{
+    transform: translate(0px, -160px);
+    font-size: 2.3rem;
+}
+.description{
+    transform: translate(0px, -70px);
+    font-size: 0.67rem;
+}
+.about{
+    top: 110px;
+    right: 10px;
+    padding-right: 0px;
+}
+.name{
+    font-size: 1.7rem;
+}
+.role{
+    font-size: 0.9rem;
+}
+.aboutDes{
+    margin-top: 20px;
+    font-size: 8px;
+}
+.pr{
+    width: 15px;
+    height: 15px;
+    right:-40px;
+    margin-top: 7px;
+}
+.dv{
+    width: 20px;
+    height: 20px;
+    right:-40px;
+}
+}
+@media (max-width: 450px){
+.about{
+    top: 130px;
+    padding: 0px;
+    right:15px;
+}
+.name{
+    font-size: 1.6rem;
+}
+.role{
+    font-size: 0.75rem;
+}
+.aboutDes{
+    margin-top: 20px;
+    font-size: 7px;
+}
+}
+@media (max-width: 430px){
+.concept{
+    transform: translate(0px, -140px);
+    font-size: 2rem;
+}
+.description{
+    transform: translate(0px, -60px);
+    font-size: 0.5rem;
+}
+.about{
+    width: 100px;
+    top: 120px;
+    padding: 0px;
+}
+.name{
+    font-size: 1.4rem;
+}
+.role{
+    font-size: 0.6rem;
+}
+.aboutDes{
+    margin-top: 20px;
+    font-size: 5.6px;
+}
+.logoS{
+    margin-top: 8px;
+}
+.pr{
+    width: 15px;
+    height: 15px;
+    right:-35px;
+    margin-top: 2px;
+}
+.dv{
+    width: 20px;
+    height: 20px;
+    right:-35px;
+    margin:0px;
+    margin-left: 2px;
+}
+}
+@media (max-width: 370px){
+.concept{
+    transform: translate(0px, -120px);
+    font-size: 1.7rem;
+}
+.description{
+    transform: translate(0px, -50px);
+    font-size: 0.4rem;
+}
+.about{
+    width: 90px;
+    top: 105px;
+    padding: 0px;
+}
+.name{
+    font-size: 1.2rem;
+}
+.role{
+    font-size: 0.5rem;
+}
+.aboutDes{
+    margin-top: 15px;
+    font-size: 4.5px;
+}
+.pr{
+    width: 15px;
+    height: 15px;
+    right:-25px;
+    margin-top: 2px;
+}
+.dv{
+    width: 20px;
+    height: 20px;
+    right:-25px;
+    margin:0px;
+    margin-left: 2px;
+}
+}

@@ -1,0 +1,191 @@
+.k25Title{
+    color:#9A9898;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.k25Des{
+    color:#9A9898;
+    font-family: 'Rimouski', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.k25Video{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.Recentvideo-container1 {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;                   
+    padding: 40px;
+    margin-top: 50px;
+}
+.Recentvideo-container2{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;                   
+    padding: 40px;
+}
+.Recentvideo-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Recentvideo-card video {
+    width: 100%;
+    border-radius: 15px;
+}
+.videoName{
+    color:#9A9898;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 10px;
+}
+.videoDes{
+    color:#9A9898;
+    font-family: 'Rimouski', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 5px;
+}
+@media (max-width: 1080px) {
+    .k25Title{
+        font-size: 1.4rem;
+        margin-left: 45px;
+    }
+    .k25Des{
+        font-size: 1rem;
+        margin-left: 45px;
+    }
+    .Recentvideo-container1, .Recentvideo-container2 {
+        padding: 30px;
+    }
+    .videoName{
+        font-size: 1.4rem;
+    }
+    .videoDes{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 768px) {
+    .k25Title{
+        font-size: 1.3rem;
+        margin-left: 40px;
+    }
+    .k25Des{
+        font-size: 0.9rem;
+        margin-left: 40px;
+    }
+    .Recentvideo-container1, .Recentvideo-container2 {
+        padding: 20px;
+    }
+    .videoName{
+        font-size: 1.2rem;
+    }
+    .videoDes{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 650px){
+    .k25Title{
+        font-size: 1.1rem;
+        margin-left: 30px;
+    }
+    .k25Des{
+        font-size: 0.8rem;
+        margin-left: 30px;
+    }
+    .Recentvideo-container1, .Recentvideo-container2 {
+        padding: 15px;
+    }
+    .videoName{
+        font-size: 1rem;
+    }
+    .videoDes{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 550px){
+    .k25Title{
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+    .k25Des{
+        font-size: 0.7rem;
+        margin-left: 30px;
+    }
+    .Recentvideo-container1, .Recentvideo-container2 {
+        padding: 10px;
+        gap: 0px;
+    }
+    .Recentvideo-card video{
+        border-radius: 5px;
+    }
+    .videoName{
+        font-size: 0.65rem;
+    }
+    .videoDes{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 450px){
+    .k25Title{
+        margin-top: 30px;
+        font-size: 0.8rem;
+        margin-left: 25px;
+    }
+    .k25Des{
+        font-size: 0.5rem;
+        margin-left: 25px;
+    }
+    .Recentvideo-container1, .Recentvideo-container2 {
+        padding: 10px;
+        gap: 5px;;
+    }
+    
+    .Recentvideo-card video{
+        border-radius: 5px;
+    }
+    .videoName{
+        font-size: 0.6rem;
+    }
+    .videoDes{
+        font-size: 0.5rem;
+        margin-top: 2px;
+    }
+}
+@media (max-width: 400px){
+    .k25Title{
+        margin-top: 30px;
+        font-size: 0.7rem;
+        margin-left: 25px;
+    }
+    .k25Des{
+        font-size: 0.4rem;
+        margin-left: 25px;
+    }
+    .Recentvideo-container1, .Recentvideo-container2 {
+        padding: 5px;
+        gap: 5px;
+    }
+    .Recentvideo-card video{
+        border-radius: 5px;
+    }
+    .videoName{
+        font-size: 0.5rem;
+    }
+    .videoDes{
+        font-size: 0.4rem;
+        margin-top: 2px;
+    }
+}

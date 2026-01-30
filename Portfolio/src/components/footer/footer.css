@@ -1,0 +1,86 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 65vh;
+}
+.footerDes{
+    position: relative;
+    top:-550px;
+    color: #2C2C2C;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 4rem;
+    text-align: left;
+    margin-left: 30px;
+}
+.footerContact{
+    position: relative;
+    top:-550px;
+    color: #2C2C2C;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 30px;
+}
+
+@media (max-width:1080px) {
+    .footerDes{
+        font-size: 3.2rem;
+        top:-480px;
+    }
+    .footerContact{
+        top:-430px;
+        font-size: 1.7rem;
+    }
+}
+@media (max-width:768px) {
+    .footerDes{
+        font-size: 2.8rem;
+        top:-400px;
+    }
+    .footerContact{
+        top:-380px;
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:650px) {
+    .footerDes{
+        font-size: 2.5rem;
+        top:-350px;
+    }
+    .footerContact{
+        top:-320px;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:550px) {
+    .footerDes{
+        font-size: 2.2rem;
+        top:-280px;
+        margin-left: 20px;
+    }
+    .footerContact{
+        top:-250px;
+        font-size: 1rem;
+        margin-right: 20px;
+    }
+}
+@media (max-width:450px) {
+    .footerDes{
+        font-size: 1.8rem;
+        top:-230px;
+    }
+    .footerContact{
+        top:-210px;
+        font-size: 0.8rem;
+    }
+}
+@media (max-width:350px) {
+    .footerDes{
+        font-size: 1.5rem;
+        top:-200px;
+    }
+    .footerContact{
+        top:-190px;
+        font-size: 0.7rem;
+    }
+}

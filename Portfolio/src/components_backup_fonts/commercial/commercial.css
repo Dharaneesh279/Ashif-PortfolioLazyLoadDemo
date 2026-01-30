@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Monument-Extended';
+    src: url('/fonts/monumentExtended/MonumentExtended-Regular.otf');
+}
+@font-face {
+    font-family: 'Rimouski';
+    src: url('./fonts/rimouski-webfont/rimouski sb.woff');
+}
+.commercial{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+.commercial-txt {
+    position: relative;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+.commercialDes {
+    position: relative;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Commercialvideo-container{
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+    padding: 40px;
+}
+.Ccommercialvideo-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Commercialvideo-card video {
+    width: 100%;
+    border-radius: 15px;
+}
+.studio{
+    position: relative;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.logoS{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    right:100px;
+}
+.dn{
+    position:relative;
+    width: 65px;
+    height: 65px;
+    background-size: cover;
+    margin-top:5px;
+}
+.er{
+    position:relative;
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+    margin:5px;
+}
+.studioVideo{
+    position: relative;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+@media (max-width: 1080px) {
+    .studio{
+        font-size: 2.7rem;
+    }
+    .logoS{
+        right:70px;
+    }
+    .er{
+        margin-left:0px;
+    }
+}
+@media (max-width: 768px) {
+    .Commercialvideo-container {
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .commercial-txt{
+        font-size: 2.2rem;
+    }
+    .commercialDes {
+        font-size: 0.7rem;
+    }
+    .studio{
+        font-size: 2.1rem;
+    }
+    .logoS{
+        right:50px;
+    }
+    .er{
+        margin-left:0px;
+    }
+}
+@media (max-width: 650px){
+    .Commercialvideo-container {
+        padding: 15px;
+        margin-top: 15px;
+    }
+    .commercial-txt{
+        font-size: 1.8rem;
+        margin-top: 30px;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+    .commercialDes {
+        font-size: 0.6rem;
+        margin-left: 20px;
+    }
+    .studio{
+        font-size: 1.7rem;
+        margin-left: 20px;
+    }
+    .logoS{
+        right:40px;
+    }
+    .er{
+        margin-left:0px;
+        width: 45px;
+        height: 45px;
+    }
+    .dn{
+        width: 55px;
+        height: 55px;
+    }
+}
+@media (max-width: 550px){
+    .commercial{
+        margin-top: 75px;
+    }
+    .Commercialvideo-container {
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .Commercialvideo-card{
+        border-radius: 5px;
+    }
+    .commercial-txt{
+        font-size: 1.5rem;
+    }
+    .commercialDes {
+        font-size: 0.5rem;
+    }
+    .studio{
+        font-size: 1.4rem;
+    }
+    .logoS{
+        right:35px;
+    }
+    .er{
+        margin-left:0px;
+    }
+}
+@media (max-width: 400px){
+    .commercial{
+        margin-top: 50px;
+    }
+    .Commercialvideo-container {
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .Commercialvideo-card{
+        border-radius: 5px;
+    }
+    .commercial-txt{
+        font-size: 1rem;
+        margin-top: 20px;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    .commercialDes {
+        font-size: 0.3rem;
+        margin-left: 10px;
+    }
+    .studio{
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    .logoS{
+        right:30px;
+    }
+    .er{
+        margin-bottom: 0px;
+        margin-left:0px;
+        width: 35px;
+        height: 35px;
+    }
+    .dn{
+        width: 45px;
+        height: 45px;
+    }
+}

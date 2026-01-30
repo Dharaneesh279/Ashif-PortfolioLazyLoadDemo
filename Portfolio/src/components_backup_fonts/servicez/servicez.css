@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Monument-Extended';
+    src: url('/fonts/monumentExtended/MonumentExtended-Regular.otf');
+}
+@font-face {
+    font-family: 'Rimouski';
+    src: url('./fonts/rimouski-webfont/rimouski sb.woff');
+}
+
+@keyframes blurText {
+    0%{
+        filter: blur(15px);
+    }
+    35%,45%,65%{
+        filter: blur(0px);
+    }
+    70%{
+        filter: blur(15px);
+    }
+    100%{
+        filter: blur(0px);
+    }
+}
+
+
+.servicez{
+    margin-top: 100px;
+    background-color: white;
+    height: 650px;
+}
+.servicesTxt1{
+    color:#2C2C2C;
+    padding-top:10px; 
+    font-size: 3.5rem;
+    font-family: 'Monument-Extended', sans-serif;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.services{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    line-height:2;
+}
+.servicesTxt2{
+    color:#2C2C2C;
+    font-size: 2.3rem;
+    animation: blurText linear both;
+    animation-timeline: view(50% auto);
+    font-family: 'Monument-Extended', sans-serif;
+}
+
+@media (max-width: 1080px) {
+    .servicez{
+        height:600px;
+    }
+    .services{
+        margin-top: 15px;
+    }
+    .servicesTxt1{
+        font-size: 3.2rem;
+    }
+    .servicesTxt2{
+        font-size: 2.1rem;
+    }
+}
+@media (max-width: 768px) {
+    .services{
+        margin-top:40px;
+        line-height: 2.2;
+    }
+    .servicesTxt1{
+        font-size: 2.8rem;
+    }
+    .servicesTxt2{
+        font-size: 1.9rem;
+    }
+}
+@media (max-width: 650px) {
+    @keyframes blurText {
+    0%{
+        filter: blur(10px);
+    }
+    35%,45%,65%,75%{
+        filter: blur(0px);
+    }
+    80%{
+        filter: blur(10px);
+    }
+    100%{
+        filter: blur(0px);
+    }
+    }
+    .servicez{
+        height:550px;
+    }
+    .services{
+        margin-top:35px;
+        line-height: 2.5;
+    }
+    .servicesTxt1{
+        font-size: 2.4rem;
+    }
+    .servicesTxt2{
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 550px) {
+    @keyframes blurText {
+    0%{
+        filter: blur(10px);
+    }
+    35%,45%,65%,75%{
+        filter: blur(0px);
+    }
+    80%{
+        filter: blur(10px);
+    }
+    100%{
+        filter: blur(0px);
+    }
+    }
+    .services{
+        margin-top:35px;
+        line-height: 2.7;
+    }
+    .servicesTxt1{
+        font-size: 2.2rem;
+        margin-left: 25px;
+    }
+    .servicesTxt2{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 500px) {
+    .services{
+        margin-top:35px;
+        line-height: 3;
+    }
+    .servicesTxt1{
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+    .servicesTxt2{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 450px) {
+    @keyframes blurText {
+    0%{
+        filter: blur(7px);
+    }
+    35%,45%,65%,80%{
+        filter: blur(0px);
+    }
+    85%{
+        filter: blur(7px);
+    }
+    100%{
+        filter: blur(0px);
+    }
+    }
+    .services{
+        margin-top:30px;
+        line-height: 3;
+    }
+    .servicesTxt1{
+        font-size: 1.9rem;
+        margin-left: 20px;
+    }
+    .servicesTxt2{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 400px) {
+    .services{
+        margin-top:30px;
+        line-height: 3.5;
+    }
+    .servicesTxt1{
+        font-size: 1.8rem;
+        margin-left: 20px;
+    }
+    .servicesTxt2{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,136 @@
+.fitness-txt{
+    color:#fff;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.fitnessDes{
+    color:#fff;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 0.7rem;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Fitnessvideo-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;                   
+    padding: 40px;
+}
+.Fitnessvideo-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Fitnessvideo-card video {
+    width: 100%;
+    border-radius: 15px;
+}
+.creatorName {
+    color: #9A9898;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.creatorDes{
+    color:#9A9898;
+    font-family: 'Rimouski', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5px;
+}
+@media (max-width: 1080px){
+    .creatorName{
+        font-size: 1.6rem;
+    }
+    .creatorDes{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .Fitnessvideo-container {
+        padding: 30px;
+    }
+    .fitness-txt{
+        font-size: 2.7rem;
+        margin-top: 70px;
+        margin-left: 20px;
+    }
+    .fitnessDes{
+        font-size: 0.6rem;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .creatorName {
+        font-size: 1.5rem;
+    }
+    .creatorDes{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 650px){
+    .Fitnessvideo-container {
+        padding: 15px;
+    }
+    .fitness-txt{
+        font-size: 2.4rem;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    .fitnessDes{
+        font-size: 0.5rem;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .creatorName {
+        font-size: 1.2rem;
+    }
+    .creatorDes{
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 550px){
+    .Fitnessvideo-container {
+        padding: 10px;
+    }
+    .Fitnessvideo-card video {
+        border-radius: 5px;
+    }
+    .fitness-txt{
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .fitnessDes{
+        font-size: 0.35rem;
+    }
+    .creatorName {
+        font-size: 1rem;
+    }
+    .creatorDes{
+        font-size: 0.4rem;
+    }
+}
+@media (max-width: 400px){
+    .Fitnessvideo-container {
+        padding: 5px;
+    }
+    .fitness-txt{
+        font-size: 1.7rem;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .fitnessDes{
+        font-size: 0.3rem;
+        margin-left: 10px;
+    }
+    .creatorName {
+        font-size: 0.7rem;
+    }
+    .creatorDes{
+        font-size: 0.5rem;
+    }
+}

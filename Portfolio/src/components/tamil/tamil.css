@@ -1,0 +1,185 @@
+@keyframes blurText {
+    0%{
+        filter: blur(15px);
+    }
+    35%,45%{
+        filter: blur(0px);
+    }
+    70%{
+        filter: blur(15px);
+    }
+    100%{
+        filter: blur(0px);
+    }
+}
+
+.tamil{
+    width: 100%;
+    padding: 20px 0;
+    background: url('/img/Tamil-Video-BG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tamil-txt1{
+    color:#fff;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 30px;
+    padding-top: 100px;
+    animation: blurText linear both;
+    animation-timeline: view(50% auto);
+}
+.tamil-txt2{
+    color:#fff;
+    font-family: 'TamilFont', sans-serif;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: left;
+    margin-left: 30px;
+    padding-bottom: 100px;
+    animation: blurText linear both;
+    animation-timeline: view(50% auto);
+}
+.Tamilvideo-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;                   
+    padding: 40px;
+}
+.Tamilvideo-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Tamilvideo-card video {
+    width: 100%;
+    border-radius: 15px;
+    animation: appear 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.tamilDes{
+    color: #fff;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-top: 80px;
+}
+
+@media (max-width: 1080px) {
+    .tamil-txt1{
+        font-size: 2.7rem;
+        padding-top: 70px;
+    }
+    .tamil-txt2{
+        font-size: 3.7rem;
+        padding-bottom: 40px;
+    }
+    .tamilDes{
+        padding-top: 40px;
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 768px) {
+    .Tamilvideo-container {
+        padding: 30px;
+    }
+    .tamil-txt1{
+        font-size: 2.5rem;
+        padding-top: 70px;
+    }
+    .tamil-txt2{
+        font-size: 3.5rem;
+        padding-bottom: 40px;
+    }
+    .tamilDes{
+        padding-top: 30px;
+        font-size: 1rem;
+    }
+}
+@media (max-width: 650px){
+    .Tamilvideo-container {
+        padding: 15px;
+    }
+    .tamil-txt1{
+        font-size: 2rem;
+        padding-top: 60px;
+        margin-left: 20px;
+    }
+    .tamil-txt2{
+        font-size: 3rem;
+        padding-bottom: 40px;
+        margin-left: 20px;
+    }
+    .tamilDes{
+        padding-top: 30px;
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 550px){
+    .Tamilvideo-container {
+        padding: 10px;
+    }
+    .tamil-txt1{
+        font-size: 1.6rem;
+        padding-top: 50px;
+    }
+    .tamil-txt2{
+        font-size: 2.5rem;
+        padding-bottom: 40px;
+    }
+    .tamilDes{
+        padding-top: 30px;
+        font-size: 0.7rem;
+    }
+    .Tamilvideo-card {
+        border-radius: 5px;
+    }
+}
+@media (max-width: 450px){
+    .Tamilvideo-container {
+        padding: 10px;
+    }
+    .tamil-txt1{
+        font-size: 1.3rem;
+        padding-top: 40px;
+    }
+    .tamil-txt2{
+        font-size: 2.2rem;
+        padding-bottom: 20px;
+    }
+    .tamilDes{
+        padding-top: 20px;
+        font-size: 0.6rem;
+    }
+    .Tamilvideo-card {
+        border-radius: 5px;
+    }
+}
+@media (max-width: 400px){
+    .Tamilvideo-container {
+        padding: 5px;
+    }
+    .tamil-txt1{
+        font-size: 1rem;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    .tamil-txt2{
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+        margin-left: 10px;
+    }
+    .tamilDes{
+        padding-top: 20px;
+        font-size: 0.5rem;
+        margin-left: 10px;
+    }
+    .Tamilvideo-card {
+        border-radius: 5px;
+    }
+}

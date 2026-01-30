@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Monument-Extended';
+    src: url('/fonts/monumentExtended/MonumentExtended-Regular.otf');
+}
+@font-face {
+    font-family: 'Rimouski';
+    src: url('./fonts/rimouski-webfont/rimouski sb.woff');
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+.onam{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-top: 100px;
+    background: url('/img/Onam-series.jpg');
+    background-repeat: no-repeat;
+}
+.onam-track{
+    display: flex;
+    animation: scroll 3.5s linear infinite;
+}
+.card{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 45px;
+    object-fit: cover;
+}
+.onam-trackReverse{
+    margin-top: 95px;
+    display: flex;
+    animation: scroll 3.5s linear infinite;
+    animation-direction: reverse;
+}
+.cardReverse{
+    width: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 35px;
+    object-fit: cover;
+}
+.onamTxt{
+    color:#fff;
+    font-family: 'Monument-Extended', sans-serif;
+    font-size: 4rem;
+    text-align: left;
+    line-height: 80px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.onamDes{
+    color:#fff;
+    font-family: 'Rimouski', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: left;
+    max-width: 600px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+@media (max-width:768px) {
+.onamTxt{
+    font-size: 3rem;
+    line-height: 50px;
+}
+.onamDes{
+    font-size: 1rem;
+    max-width: 500px;
+}
+.onam-trackReverse{
+    margin-top: 70px;
+}
+}
+@media (max-width:650px) {
+.onamTxt{
+    font-size: 2.6rem;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.onamDes{
+    font-size: 0.7rem;
+    max-width: 350px;
+}
+.onam-trackReverse{
+    margin-top: 60px;
+}
+}
+@media (max-width:550px) {
+.onam{
+    margin-top: 70px;
+}
+.onamTxt{
+    font-size: 2.3rem;
+    line-height: 40px;
+}
+.onamDes{
+    font-size: 0.65rem;
+    max-width: 330px;
+    margin-bottom: 35px;
+}
+.card , .cardReverse{
+    border-radius: 8px;
+    margin-right: 25px;
+}
+.onam-trackReverse{
+    margin-top: 50px;
+}
+}
+@media (max-width:450px) {
+.onamTxt{
+    font-size: 2rem;
+    line-height: 30px;
+}
+.onamDes{
+    font-size: 0.6rem;
+    max-width: 300px;
+    margin-bottom: 35px;
+}
+.card , .cardReverse{
+    border-radius: 7px;
+    margin-right: 17px;
+}
+.onam-trackReverse{
+    margin-top: 40px;
+}
+}
+@media (max-width:400px) {
+.onamTxt{
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+.onamDes{
+    font-size: 0.5rem;
+    max-width: 250px;
+    margin-bottom: 35px;
+}
+}
+@media (max-width:350px) {
+.onamTxt{
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.onamDes{
+    font-size: 0.4rem;
+    max-width: 200px;
+    margin-bottom: 32px;
+}
+.onam-trackReverse{
+    margin-top: 30px;
+}
+}

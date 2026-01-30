@@ -1,0 +1,84 @@
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    left:0px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2C2C2C;
+    font-family: 'Kinglard';
+}
+
+.navbar a{
+    font-size: 1rem;
+    margin-left: 2rem;
+    font-weight: 500;
+    color: #2C2C2C;
+    font-family: 'Rimouski';
+}
+
+@media (max-width: 768px){
+    .header{
+        width:100%;
+        padding:1rem 1rem;
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .navbar a{
+        font-size: 0.8rem;
+        margin-left: 1.5rem;
+    }
+}
+@media (max-width: 650px){
+    .header{
+        width:100%;
+        padding:1rem 1rem;
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .navbar a{
+        font-size: 0.7rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 550px){
+    .header{
+        width:100%;
+        padding: 1rem 1rem;
+    }
+    .logo{
+        font-size: 1rem;
+    }
+    .navbar a{
+        font-size: 0.5rem;
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 420px){
+    .header{
+        width:100%;
+        padding: 0.5rem 1rem;
+    }
+    .logo{
+        font-size: 0.8rem;
+    }
+    .navbar a{
+        font-size: 0.4rem;
+        margin-left: 1rem;
+    }
+}

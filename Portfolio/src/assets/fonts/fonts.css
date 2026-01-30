@@ -1,0 +1,85 @@
+/* =========================
+   CINZEL
+   ========================= */
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/cinzel/Cinzel-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   BODONI
+   ========================= */
+@font-face {
+  font-family: 'Bodoni';
+  src: url('/fonts/bodoni_xt/BodoniXT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   GOBOLD ITALIC
+   ========================= */
+
+   
+@font-face {
+  font-family: 'GoboldItalic';
+  src: url('/fonts/gobold/Gobold%20Regular%20Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gobold-uplow-italic';
+  src: url('/fonts/gobold/Gobold%20Regular%20Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+/* =========================
+   MONUMENT EXTENDED
+   ========================= */
+@font-face {
+  font-family: 'Monument-Extended';
+  src: url('/fonts/monumentExtended/MonumentExtended-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   RIMOUSKI
+   ========================= */
+@font-face {
+  font-family: 'Rimouski';
+  src: url('/fonts/rimouski-webfont/rimouski%20sb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   KINGLARD
+   ========================= */
+@font-face {
+  font-family: 'Kinglard';
+  src: url('/fonts/Kinglard/kinglard.italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* =========================
+   TAMIL FONT
+   ========================= */
+@font-face {
+  font-family: 'TamilFont';
+  src: url('/fonts/tamil-font/Tamil-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

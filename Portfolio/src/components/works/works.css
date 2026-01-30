@@ -1,0 +1,41 @@
+.video-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 30px;                   
+    padding: 30px;
+}
+.Wcard {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+.Wcard video {
+    width: 100%;
+}
+
+@media (max-width:700px) {
+    .video-container {
+        gap:10px;
+        padding: 20px;
+    }
+}
+@media (max-width:600px) {
+    .video-container {
+        gap:10px;
+        padding: 15px;
+    }
+}
+@media (max-width:500px) {
+    .video-container {
+        gap:10px;
+        padding: 15px;
+    }
+}
+@media (max-width:400px) {
+    .video-container {
+        gap:10px;
+        padding: 15px;
+    }
+}

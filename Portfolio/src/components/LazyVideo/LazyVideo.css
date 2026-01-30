@@ -1,0 +1,29 @@
+/* Wrapper */
+.lazy-video-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+/* Video default */
+.lazy-video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Hide controls by default (Chrome / Edge / Safari) */
+.lazy-video::-webkit-media-controls {
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+/* Show controls on hover */
+.lazy-video-wrapper:hover .lazy-video::-webkit-media-controls {
+  opacity: 1;
+}
+
+/* Keep controls visible when user is interacting */
+.lazy-video:focus::-webkit-media-controls,
+.lazy-video:active::-webkit-media-controls {
+  opacity: 1;
+}

@@ -1,0 +1,234 @@
+
+.watch{
+    width: 100%;
+    background-color: #000;
+}
+.watchVideo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.title{
+    position: relative;
+    padding-top: 90px;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Monument-Extended', sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.idName{
+    position: relative;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Monument-Extended', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.Watchvideo-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;                   
+    padding: 30px;
+}
+.Watchvideo-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Watchvideo-card video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Watchvideo-container1 {
+    display: flex;      
+    justify-content:center;
+    padding: 30px;
+    gap:30px;
+}
+.Watchvideo-card1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.Watchvideo-card1 video {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.storiesTxt{
+    color: white;
+    font-size: 5rem;
+    font-family: "TamilFont", sans-serif;
+    text-align: center;
+    letter-spacing:2px;
+    padding-top: 10px;
+}
+.dates{
+    color: white;
+    font-size: 1rem;
+    font-family: "Rimouski", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 4px;
+}
+.storiesDes{
+    color: white;
+    font-size: 1rem;
+    font-family: "Rimouski", sans-serif;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+}
+@media (max-width:768px) {
+    .storiesTxt{
+        font-size: 4rem;
+    }
+    .dates{
+        font-size: 0.9rem;
+    }
+    .storiesDes{
+        font-size: 0.9rem;
+    }
+    .Watchvideo-container{
+        padding: 20px;
+        gap:15px
+    }
+    .title{
+        padding-top: 75px;
+        font-size: 0.8rem;
+    }
+    .idName{
+        font-size: 3.2rem;
+    }
+}
+@media (max-width:650px) {
+    .storiesTxt{
+        font-size: 3.5rem;
+    }
+    .dates{
+        padding-top: 10px;
+        font-size: 0.8rem;
+    }
+    .storiesDes{
+        padding-top: 10px;
+        font-size: 0.8rem;
+    }
+    .Watchvideo-container{
+        padding: 15px;
+        gap:12px
+    }
+    .title{
+        padding-top: 65px;
+        font-size: 0.6rem;
+    }
+    .idName{
+        font-size: 2.5rem;
+    }
+}
+@media (max-width:550px) {
+    .storiesTxt{
+        font-size: 3.3rem;
+    }
+    .dates{
+        padding-top: 10px;
+        font-size: 0.7rem;
+    }
+    .storiesDes{
+        padding-top: 10px;
+        font-size: 0.7rem;
+    }
+    .Watchvideo-container{
+        padding: 10px;
+        gap:10px
+    }
+    .title{
+        padding-top: 60px;
+        font-size: 0.5rem;
+    }
+    .idName{
+        padding-top: 15px;
+        font-size: 2.2rem;
+    }
+}
+@media (max-width:450px) {
+    .storiesTxt{
+        font-size: 3.1rem;
+    }
+    .dates{
+        padding-top: 10px;
+        font-size: 0.6rem;
+    }
+    .storiesDes{
+        padding-top: 10px;
+        font-size: 0.6rem;
+    }
+    .Watchvideo-container{
+        padding: 10px;
+        gap:10px
+    }
+    .Watchvideo-card video {
+        border-radius:5px;
+    }
+    .title{
+        font-size: 0.4rem;
+        padding-top: 50px;
+    }
+    .idName{
+        font-size: 1.9rem;
+    }
+}
+@media (max-width:400px) {
+    .storiesTxt{
+        font-size: 2.9rem;
+    }
+    .dates{
+        padding-top: 10px;
+        font-size: 0.6rem;
+    }
+    .storiesDes{
+        padding-top: 10px;
+        font-size: 0.6rem;
+    }
+    .Watchvideo-container{
+        padding: 10px;
+        gap:10px
+    }
+    .Watchvideo-card video {
+        border-radius:5px;
+    }
+    .title{
+        font-size: 0.25rem;
+        padding-top: 40px;
+    }
+    .idName{
+        padding-top: 10px;
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:350px) {
+    .Watchvideo-container{
+        padding: 10px;
+        gap:10px
+    }
+    .Watchvideo-card video {
+        border-radius:5px;
+    }
+    .title{
+        font-size: 0.25rem;
+        padding-top: 40px;
+    }
+    .idName{
+        padding-top: 10px;
+        font-size: 1.2rem;
+    }
+}

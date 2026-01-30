@@ -1,0 +1,82 @@
+
+.headerGallery{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 100;
+}
+
+.logoGallery{
+    position: relative;
+    left:0px;
+    font-size: 1.5rem;
+    color: #c4c4c4;
+    font-family: 'Kinglard';
+}
+
+.navbarGallery a{
+    font-size: 1rem;
+    margin-left: 2rem;
+    color: #c4c4c4;
+    font-family: 'Rimouski';
+}
+
+@media (max-width: 768px){
+    .headerGallery{
+        width:100%;
+        padding:1rem 1rem;
+    }
+    .logoGallery{
+        font-size: 1.3rem;
+    }
+    .navbarGallery a{
+        font-size: 0.8rem;
+        margin-left: 1.5rem;
+    }
+}
+@media (max-width: 650px){
+    .headerGallery{
+        width:100%;
+        padding:1rem 1rem;
+    }
+    .logoGallery{
+        font-size: 1.3rem;
+    }
+    .navbarGallery a{
+        font-size: 0.7rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 550px){
+    .headerGallery{
+        width:100%;
+        padding: 1rem 1rem;
+    }
+    .logoGallery{
+        font-size: 1rem;
+    }
+    .navbarGallery a{
+        font-size: 0.5rem;
+        margin-left: 1rem;
+    }
+}
+@media (max-width: 420px){
+    .headerGallery{
+        width:100%;
+        padding: 0.5rem 1rem;
+    }
+    .logoGallery{
+        font-size: 0.8rem;
+    }
+    .navbarGallery a{
+        font-size: 0.4rem;
+        margin-left: 1rem;
+    }
+}
