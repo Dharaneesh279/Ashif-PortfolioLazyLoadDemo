@@ -5,15 +5,11 @@ const videos = [
   "Onam1.mp4",
   "Onam2.mp4",
   "Onam3.mp4",
-  "Onam4.mp4",
-  "Onam5.mp4",
 ];
 const videosReverse = [
   "Onam5.mp4",
   "Onam4.mp4",
   "Onam3.mp4",
-  "Onam2.mp4",
-  "Onam1.mp4",
 ];
 
 const DUPLICATED_VIDEOS = [...videos, ...videos];

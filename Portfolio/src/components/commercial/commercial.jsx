@@ -1,5 +1,6 @@
 import React from 'react';
 import './commercial.css';
+import LazyVideo from "../LazyVideo/LazyVideo";
 
 const Commercial = () =>{
     return(
@@ -8,15 +9,15 @@ const Commercial = () =>{
             <p className="commercialDes">Edited promotional videos for clothing line,<br/> highlighting product features,<br/>lifestyle visuals, and brand aesthetics.</p>
             <div className="Commercialvideo-container">
             <div className="Commercialvideo-card">
-                <video  src="/video/Main5.mp4" loop autoPlay controls muted ></video>
+                <LazyVideo src="/video/Main5.mp4"poster="/img/Main5-TN.png"/>
             </div>
 
             <div className="Commercialvideo-card">
-                <video  src="/video/Main14.mp4" loop autoPlay controls muted ></video>
+                <LazyVideo src="/video/Main14.mp4" poster="/img/Main14-TN.png"/>
             </div>
 
             <div className="Commercialvideo-card">
-                <video  src="/video/Main10.mp4" loop autoPlay controls muted ></video>
+                <LazyVideo src="/video/Main10.mp4" poster="/img/Main10-TN.png"/>
             </div>
         </div>
         <h1 className="studio">Dremers note studio<br/>We luv erode</h1>

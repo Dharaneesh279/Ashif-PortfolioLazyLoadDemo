@@ -1,41 +1,38 @@
 .video-container {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-    gap: 30px;                   
-    padding: 30px;
-}
-.Wcard {
-    display: flex;
-    flex-direction: row;
-    width: 30%;
-}
-.Wcard video {
-    width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
 }
 
-@media (max-width:700px) {
-    .video-container {
-        gap:10px;
-        padding: 20px;
-    }
+.Wcard {
+  flex: 0 0 30%;
+  aspect-ratio: 9 / 16;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
 }
-@media (max-width:600px) {
-    .video-container {
-        gap:10px;
-        padding: 15px;
-    }
+
+.Wcard video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-@media (max-width:500px) {
-    .video-container {
-        gap:10px;
-        padding: 15px;
-    }
+
+@media (max-width: 700px) {
+  .video-container { gap: 10px; padding: 20px; }
 }
-@media (max-width:400px) {
-    .video-container {
-        gap:10px;
-        padding: 15px;
-    }
+
+@media (max-width: 600px) {
+  .video-container { gap: 10px; padding: 15px; }
+}
+
+@media (max-width: 500px) {
+  .video-container { gap: 10px; padding: 15px; }
+}
+
+@media (max-width: 400px) {
+  .video-container { gap: 10px; padding: 15px; }
 }
